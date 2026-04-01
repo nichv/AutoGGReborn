@@ -1,0 +1,9 @@
+Symbol range map extraction starting
+Processing 7 files
+processing pw\_2pi\autogg\gg\AutoGG.java
+processing pw\_2pi\autogg\gg\GGCommand.java
+processing pw\_2pi\autogg\gg\GGListener.java
+processing pw\_2pi\autogg\gg\GGThread.java
+processing pw\_2pi\autogg\util\AutoGGThreadFactory.java
+processing pw\_2pi\autogg\util\ConfigUtil.java
+processing pw\_2pi\autogg\util\GetTriggers.java

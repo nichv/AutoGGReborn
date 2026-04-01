@@ -1,0 +1,592 @@
+Symbol range map extraction starting
+Processing 7 files
+processing pw\_2pi\autogg\gg\AutoGG.java
+@|pw\_2pi\autogg\gg\AutoGG.java|650|667|pw._2pi.autogg.gg|package|pw._2pi.autogg.gg|(file)
+Class Start: pw._2pi.autogg.gg.AutoGG
+   @|pw\_2pi\autogg\gg\AutoGG.java|1595|1601|String|class|java.lang.String
+   @|pw\_2pi\autogg\gg\AutoGG.java|1602|1607|MODID|field|pw._2pi.autogg.gg.AutoGG|MODID|
+   @|pw\_2pi\autogg\gg\AutoGG.java|1644|1650|String|class|java.lang.String
+   @|pw\_2pi\autogg\gg\AutoGG.java|1651|1658|VERSION|field|pw._2pi.autogg.gg.AutoGG|VERSION|
+   @|pw\_2pi\autogg\gg\AutoGG.java|1694|1709|ExecutorService|class|java.util.concurrent.ExecutorService
+   @|pw\_2pi\autogg\gg\AutoGG.java|1710|1721|THREAD_POOL|field|pw._2pi.autogg.gg.AutoGG|THREAD_POOL|
+   @|pw\_2pi\autogg\gg\AutoGG.java|1724|1733|Executors|class|java.util.concurrent.Executors
+   @|pw\_2pi\autogg\gg\AutoGG.java|1734|1753|newCachedThreadPool|method|java.util.concurrent.Executors|newCachedThreadPool|(Ljava/util/concurrent/ThreadFactory;)Ljava/util/concurrent/ExecutorService;
+   @|pw\_2pi\autogg\gg\AutoGG.java|1758|1777|AutoGGThreadFactory|class|pw._2pi.autogg.util.AutoGGThreadFactory
+   @|pw\_2pi\autogg\gg\AutoGG.java|1801|1807|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+   @|pw\_2pi\autogg\gg\AutoGG.java|1808|1816|instance|field|pw._2pi.autogg.gg.AutoGG|instance|
+   @|pw\_2pi\autogg\gg\AutoGG.java|1836|1845|Minecraft|class|net.minecraft.client.Minecraft
+   @|pw\_2pi\autogg\gg\AutoGG.java|1846|1848|mc|field|pw._2pi.autogg.gg.AutoGG|mc|
+   @|pw\_2pi\autogg\gg\AutoGG.java|1851|1860|Minecraft|class|net.minecraft.client.Minecraft
+   @|pw\_2pi\autogg\gg\AutoGG.java|1861|1873|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   @|pw\_2pi\autogg\gg\AutoGG.java|1897|1906|onHypixel|field|pw._2pi.autogg.gg.AutoGG|onHypixel|
+   @|pw\_2pi\autogg\gg\AutoGG.java|1936|1942|toggle|field|pw._2pi.autogg.gg.AutoGG|toggle|
+   @|pw\_2pi\autogg\gg\AutoGG.java|1967|1972|delay|field|pw._2pi.autogg.gg.AutoGG|delay|
+   @|pw\_2pi\autogg\gg\AutoGG.java|1995|2001|String|class|java.lang.String
+   @|pw\_2pi\autogg\gg\AutoGG.java|1990|1994|List|class|java.util.List
+   @|pw\_2pi\autogg\gg\AutoGG.java|2003|2011|triggers|field|pw._2pi.autogg.gg.AutoGG|triggers|
+   @|pw\_2pi\autogg\gg\AutoGG.java|2025|2032|Boolean|class|java.lang.Boolean
+   @|pw\_2pi\autogg\gg\AutoGG.java|2033|2040|running|field|pw._2pi.autogg.gg.AutoGG|running|
+   @|pw\_2pi\autogg\gg\AutoGG.java|2068|2074|String|class|java.lang.String
+   @|pw\_2pi\autogg\gg\AutoGG.java|2075|2084|GGMessage|field|pw._2pi.autogg.gg.AutoGG|GGMessage|
+   Method Start: AutoGG()V
+      @|pw\_2pi\autogg\gg\AutoGG.java|2098|2104|AutoGG|method|pw._2pi.autogg.gg.AutoGG|AutoGG|()V
+      @|pw\_2pi\autogg\gg\AutoGG.java|2117|2126|GGMessage|field|pw._2pi.autogg.gg.AutoGG|GGMessage
+   Method End: AutoGG()V
+   Method Start: getInstance()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\AutoGG.java|2167|2178|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\AutoGG.java|2160|2166|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\AutoGG.java|2198|2206|instance|field|pw._2pi.autogg.gg.AutoGG|instance
+   Method End: getInstance()Lpw/_2pi/autogg/gg/AutoGG;
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|2253|2257|init|method|pw._2pi.autogg.gg.AutoGG|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|2295|2306|IOException|class|java.io.IOException
+      @|pw\_2pi\autogg\gg\AutoGG.java|2258|2280|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|pw\_2pi\autogg\gg\AutoGG.java|2281|2286|event|param|pw._2pi.autogg.gg.AutoGG|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|pw\_2pi\autogg\gg\AutoGG.java|2317|2325|instance|field|pw._2pi.autogg.gg.AutoGG|instance
+      @|pw\_2pi\autogg\gg\AutoGG.java|2342|2356|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|pw\_2pi\autogg\gg\AutoGG.java|2357|2366|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|pw\_2pi\autogg\gg\AutoGG.java|2367|2375|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|2377|2383|Object|class|java.lang.Object
+      @|pw\_2pi\autogg\gg\AutoGG.java|2399|2413|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|pw\_2pi\autogg\gg\AutoGG.java|2414|2423|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|pw\_2pi\autogg\gg\AutoGG.java|2424|2432|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|2434|2440|Object|class|java.lang.Object
+      @|pw\_2pi\autogg\gg\AutoGG.java|2445|2455|GGListener|class|pw._2pi.autogg.gg.GGListener
+      @|pw\_2pi\autogg\gg\AutoGG.java|2468|2488|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|pw\_2pi\autogg\gg\AutoGG.java|2489|2497|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|pw\_2pi\autogg\gg\AutoGG.java|2498|2513|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|pw\_2pi\autogg\gg\AutoGG.java|2515|2523|ICommand|class|net.minecraft.command.ICommand
+      @|pw\_2pi\autogg\gg\AutoGG.java|2528|2537|GGCommand|class|pw._2pi.autogg.gg.GGCommand
+      @|pw\_2pi\autogg\gg\AutoGG.java|2550|2561|THREAD_POOL|field|pw._2pi.autogg.gg.AutoGG|THREAD_POOL
+      @|pw\_2pi\autogg\gg\AutoGG.java|2562|2568|submit|method|java.util.concurrent.ExecutorService|submit|(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
+      @|pw\_2pi\autogg\gg\AutoGG.java|2573|2584|GetTriggers|class|pw._2pi.autogg.util.GetTriggers
+      @|pw\_2pi\autogg\gg\AutoGG.java|2602|2607|delay|field|pw._2pi.autogg.gg.AutoGG|delay
+      @|pw\_2pi\autogg\gg\AutoGG.java|2610|2620|ConfigUtil|class|pw._2pi.autogg.util.ConfigUtil
+      @|pw\_2pi\autogg\gg\AutoGG.java|2621|2635|getConfigDelay|method|pw._2pi.autogg.util.ConfigUtil|getConfigDelay|()I
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: playerLoggedIn(Lnet/minecraftforge/fml/common/network/FMLNetworkEvent$ClientConnectedToServerEvent;)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|2682|2696|playerLoggedIn|method|pw._2pi.autogg.gg.AutoGG|playerLoggedIn|(Lnet/minecraftforge/fml/common/network/FMLNetworkEvent$ClientConnectedToServerEvent;)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|2697|2741|FMLNetworkEvent.ClientConnectedToServerEvent|class|net.minecraftforge.fml.common.network.FMLNetworkEvent.ClientConnectedToServerEvent
+      @|pw\_2pi\autogg\gg\AutoGG.java|2742|2747|event|param|pw._2pi.autogg.gg.AutoGG|playerLoggedIn|(Lnet/minecraftforge/fml/common/network/FMLNetworkEvent$ClientConnectedToServerEvent;)V|event|0
+      @|pw\_2pi\autogg\gg\AutoGG.java|2764|2773|onHypixel|field|pw._2pi.autogg.gg.AutoGG|onHypixel
+      @|pw\_2pi\autogg\gg\AutoGG.java|2782|2784|mc|field|pw._2pi.autogg.gg.AutoGG|mc
+      @|pw\_2pi\autogg\gg\AutoGG.java|2785|2799|isSingleplayer|method|net.minecraft.client.Minecraft|isSingleplayer|()Z
+      @|pw\_2pi\autogg\gg\AutoGG.java|2805|2810|event|param|pw._2pi.autogg.gg.AutoGG|playerLoggedIn|(Lnet/minecraftforge/fml/common/network/FMLNetworkEvent$ClientConnectedToServerEvent;)V|event|0
+      @|pw\_2pi\autogg\gg\AutoGG.java|2811|2818|manager|field|net.minecraftforge.fml.common.network.FMLNetworkEvent|manager
+      @|pw\_2pi\autogg\gg\AutoGG.java|2819|2835|getRemoteAddress|method|net.minecraft.network.NetworkManager|getRemoteAddress|()Ljava/net/SocketAddress;
+      @|pw\_2pi\autogg\gg\AutoGG.java|2838|2846|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|pw\_2pi\autogg\gg\AutoGG.java|2849|2860|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|pw\_2pi\autogg\gg\AutoGG.java|2863|2871|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+   Method End: playerLoggedIn(Lnet/minecraftforge/fml/common/network/FMLNetworkEvent$ClientConnectedToServerEvent;)V
+   Method Start: playerLoggedOut(Lnet/minecraftforge/fml/common/network/FMLNetworkEvent$ClientDisconnectionFromServerEvent;)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|2931|2946|playerLoggedOut|method|pw._2pi.autogg.gg.AutoGG|playerLoggedOut|(Lnet/minecraftforge/fml/common/network/FMLNetworkEvent$ClientDisconnectionFromServerEvent;)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|2947|2997|FMLNetworkEvent.ClientDisconnectionFromServerEvent|class|net.minecraftforge.fml.common.network.FMLNetworkEvent.ClientDisconnectionFromServerEvent
+      @|pw\_2pi\autogg\gg\AutoGG.java|2998|3003|event|param|pw._2pi.autogg.gg.AutoGG|playerLoggedOut|(Lnet/minecraftforge/fml/common/network/FMLNetworkEvent$ClientDisconnectionFromServerEvent;)V|event|0
+      @|pw\_2pi\autogg\gg\AutoGG.java|3020|3029|onHypixel|field|pw._2pi.autogg.gg.AutoGG|onHypixel
+   Method End: playerLoggedOut(Lnet/minecraftforge/fml/common/network/FMLNetworkEvent$ClientDisconnectionFromServerEvent;)V
+   Method Start: isHypixel()Z
+      @|pw\_2pi\autogg\gg\AutoGG.java|3065|3074|isHypixel|method|pw._2pi.autogg.gg.AutoGG|isHypixel|()Z
+      @|pw\_2pi\autogg\gg\AutoGG.java|3099|3108|onHypixel|field|pw._2pi.autogg.gg.AutoGG|onHypixel
+   Method End: isHypixel()Z
+   Method Start: getTriggers()Ljava/util/List;
+      @|pw\_2pi\autogg\gg\AutoGG.java|3133|3144|getTriggers|method|pw._2pi.autogg.gg.AutoGG|getTriggers|()Ljava/util/List;
+      @|pw\_2pi\autogg\gg\AutoGG.java|3128|3132|List|class|java.util.List
+      @|pw\_2pi\autogg\gg\AutoGG.java|3169|3177|triggers|field|pw._2pi.autogg.gg.AutoGG|triggers
+   Method End: getTriggers()Ljava/util/List;
+   Method Start: setTriggers(Ljava/util/ArrayList;)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|3202|3213|setTriggers|method|pw._2pi.autogg.gg.AutoGG|setTriggers|(Ljava/util/ArrayList;)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|3214|3223|ArrayList|class|java.util.ArrayList
+      @|pw\_2pi\autogg\gg\AutoGG.java|3224|3232|triggers|param|pw._2pi.autogg.gg.AutoGG|setTriggers|(Ljava/util/ArrayList;)V|triggers|0
+      @|pw\_2pi\autogg\gg\AutoGG.java|3249|3257|triggers|field|pw._2pi.autogg.gg.AutoGG|triggers
+      @|pw\_2pi\autogg\gg\AutoGG.java|3260|3268|triggers|param|pw._2pi.autogg.gg.AutoGG|setTriggers|(Ljava/util/ArrayList;)V|triggers|0
+   Method End: setTriggers(Ljava/util/ArrayList;)V
+   Method Start: isToggled()Z
+      @|pw\_2pi\autogg\gg\AutoGG.java|3296|3305|isToggled|method|pw._2pi.autogg.gg.AutoGG|isToggled|()Z
+      @|pw\_2pi\autogg\gg\AutoGG.java|3330|3336|toggle|field|pw._2pi.autogg.gg.AutoGG|toggle
+   Method End: isToggled()Z
+   Method Start: setToggled()V
+      @|pw\_2pi\autogg\gg\AutoGG.java|3361|3371|setToggled|method|pw._2pi.autogg.gg.AutoGG|setToggled|()V
+      @|pw\_2pi\autogg\gg\AutoGG.java|3389|3395|toggle|field|pw._2pi.autogg.gg.AutoGG|toggle
+      @|pw\_2pi\autogg\gg\AutoGG.java|3404|3410|toggle|field|pw._2pi.autogg.gg.AutoGG|toggle
+   Method End: setToggled()V
+   Method Start: getDelay()I
+      @|pw\_2pi\autogg\gg\AutoGG.java|3434|3442|getDelay|method|pw._2pi.autogg.gg.AutoGG|getDelay|()I
+      @|pw\_2pi\autogg\gg\AutoGG.java|3467|3472|delay|field|pw._2pi.autogg.gg.AutoGG|delay
+   Method End: getDelay()I
+   Method Start: setDelay(I)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|3497|3505|setDelay|method|pw._2pi.autogg.gg.AutoGG|setDelay|(I)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|3510|3515|delay|param|pw._2pi.autogg.gg.AutoGG|setDelay|(I)V|delay|0
+      @|pw\_2pi\autogg\gg\AutoGG.java|3532|3537|delay|field|pw._2pi.autogg.gg.AutoGG|delay
+      @|pw\_2pi\autogg\gg\AutoGG.java|3540|3545|delay|param|pw._2pi.autogg.gg.AutoGG|setDelay|(I)V|delay|0
+   Method End: setDelay(I)V
+   Method Start: getMinecraft()Lnet/minecraft/client/Minecraft;
+      @|pw\_2pi\autogg\gg\AutoGG.java|3575|3587|getMinecraft|method|pw._2pi.autogg.gg.AutoGG|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|pw\_2pi\autogg\gg\AutoGG.java|3565|3574|Minecraft|class|net.minecraft.client.Minecraft
+      @|pw\_2pi\autogg\gg\AutoGG.java|3612|3614|mc|field|pw._2pi.autogg.gg.AutoGG|mc
+   Method End: getMinecraft()Lnet/minecraft/client/Minecraft;
+   Method Start: isRunning()Z
+      @|pw\_2pi\autogg\gg\AutoGG.java|3642|3651|isRunning|method|pw._2pi.autogg.gg.AutoGG|isRunning|()Z
+      @|pw\_2pi\autogg\gg\AutoGG.java|3676|3683|running|field|pw._2pi.autogg.gg.AutoGG|running
+   Method End: isRunning()Z
+   Method Start: setRunning(Z)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|3708|3718|setRunning|method|pw._2pi.autogg.gg.AutoGG|setRunning|(Z)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|3727|3734|running|param|pw._2pi.autogg.gg.AutoGG|setRunning|(Z)V|running|0
+      @|pw\_2pi\autogg\gg\AutoGG.java|3751|3758|running|field|pw._2pi.autogg.gg.AutoGG|running
+      @|pw\_2pi\autogg\gg\AutoGG.java|3761|3768|running|param|pw._2pi.autogg.gg.AutoGG|setRunning|(Z)V|running|0
+   Method End: setRunning(Z)V
+   Method Start: getMessage()Ljava/lang/String;
+      @|pw\_2pi\autogg\gg\AutoGG.java|3795|3805|getMessage|method|pw._2pi.autogg.gg.AutoGG|getMessage|()Ljava/lang/String;
+      @|pw\_2pi\autogg\gg\AutoGG.java|3788|3794|String|class|java.lang.String
+      @|pw\_2pi\autogg\gg\AutoGG.java|3825|3834|GGMessage|field|pw._2pi.autogg.gg.AutoGG|GGMessage
+   Method End: getMessage()Ljava/lang/String;
+   Method Start: setMessage(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|3859|3869|setMessage|method|pw._2pi.autogg.gg.AutoGG|setMessage|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\gg\AutoGG.java|3870|3876|String|class|java.lang.String
+      @|pw\_2pi\autogg\gg\AutoGG.java|3877|3884|message|param|pw._2pi.autogg.gg.AutoGG|setMessage|(Ljava/lang/String;)V|message|0
+      @|pw\_2pi\autogg\gg\AutoGG.java|3896|3905|GGMessage|field|pw._2pi.autogg.gg.AutoGG|GGMessage
+      @|pw\_2pi\autogg\gg\AutoGG.java|3908|3915|message|param|pw._2pi.autogg.gg.AutoGG|setMessage|(Ljava/lang/String;)V|message|0
+   Method End: setMessage(Ljava/lang/String;)V
+Class End  : pw._2pi.autogg.gg.AutoGG
+endProcessing pw\_2pi\autogg\gg\AutoGG.java
+
+processing pw\_2pi\autogg\gg\GGCommand.java
+@|pw\_2pi\autogg\gg\GGCommand.java|290|307|pw._2pi.autogg.gg|package|pw._2pi.autogg.gg|(file)
+Class Start: pw._2pi.autogg.gg.GGCommand
+   Method Start: getCommandName()Ljava/lang/String;
+      @|pw\_2pi\autogg\gg\GGCommand.java|666|680|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|pw\_2pi\autogg\gg\GGCommand.java|659|665|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getRequiredPermissionLevel()I
+      @|pw\_2pi\autogg\gg\GGCommand.java|732|758|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+   Method Start: canSenderUseCommand(Lnet/minecraft/command/ICommandSender;)Z
+      @|pw\_2pi\autogg\gg\GGCommand.java|807|826|canSenderUseCommand|method|pw._2pi.autogg.gg.GGCommand|canSenderUseCommand|(Lnet/minecraft/command/ICommandSender;)Z
+      @|pw\_2pi\autogg\gg\GGCommand.java|827|841|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|pw\_2pi\autogg\gg\GGCommand.java|842|848|sender|param|pw._2pi.autogg.gg.GGCommand|canSenderUseCommand|(Lnet/minecraft/command/ICommandSender;)Z|sender|0
+   Method End: canSenderUseCommand(Lnet/minecraft/command/ICommandSender;)Z
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|896|910|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|911|925|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|pw\_2pi\autogg\gg\GGCommand.java|926|932|sender|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|pw\_2pi\autogg\gg\GGCommand.java|934|940|String|class|java.lang.String
+      @|pw\_2pi\autogg\gg\GGCommand.java|943|947|args|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|pw\_2pi\autogg\gg\GGCommand.java|959|965|String|class|java.lang.String
+      @|pw\_2pi\autogg\gg\GGCommand.java|981|985|args|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|pw\_2pi\autogg\gg\GGCommand.java|1018|1033|showSyntaxError|method|pw._2pi.autogg.gg.GGCommand|showSyntaxError|(Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|1034|1040|sender|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|pw\_2pi\autogg\gg\GGCommand.java|1093|1097|args|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|pw\_2pi\autogg\gg\GGCommand.java|1172|1178|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGCommand.java|1179|1190|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGCommand.java|1193|1203|setToggled|method|pw._2pi.autogg.gg.AutoGG|setToggled|()V
+      @|pw\_2pi\autogg\gg\GGCommand.java|1228|1239|showMessage|method|pw._2pi.autogg.gg.GGCommand|showMessage|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|1240|1258|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|pw\_2pi\autogg\gg\GGCommand.java|1259|1263|GRAY|field|net.minecraft.util.EnumChatFormatting|GRAY
+      @|pw\_2pi\autogg\gg\GGCommand.java|1280|1286|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGCommand.java|1287|1298|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGCommand.java|1301|1310|isToggled|method|pw._2pi.autogg.gg.AutoGG|isToggled|()Z
+      @|pw\_2pi\autogg\gg\GGCommand.java|1315|1333|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|pw\_2pi\autogg\gg\GGCommand.java|1334|1339|GREEN|field|net.minecraft.util.EnumChatFormatting|GREEN
+      @|pw\_2pi\autogg\gg\GGCommand.java|1349|1367|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|pw\_2pi\autogg\gg\GGCommand.java|1368|1371|RED|field|net.minecraft.util.EnumChatFormatting|RED
+      @|pw\_2pi\autogg\gg\GGCommand.java|1382|1388|sender|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|pw\_2pi\autogg\gg\GGCommand.java|1525|1529|args|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|pw\_2pi\autogg\gg\GGCommand.java|1607|1614|Integer|class|java.lang.Integer
+      @|pw\_2pi\autogg\gg\GGCommand.java|1615|1623|parseInt|method|java.lang.Integer|parseInt|(Ljava/lang/String;)I
+      @|pw\_2pi\autogg\gg\GGCommand.java|1624|1628|args|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|pw\_2pi\autogg\gg\GGCommand.java|1726|1747|NumberFormatException|class|java.lang.NumberFormatException
+      @|pw\_2pi\autogg\gg\GGCommand.java|1818|1824|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGCommand.java|1825|1836|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGCommand.java|1839|1847|setDelay|method|pw._2pi.autogg.gg.AutoGG|setDelay|(I)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|1880|1890|ConfigUtil|class|pw._2pi.autogg.util.ConfigUtil
+      @|pw\_2pi\autogg\gg\GGCommand.java|1891|1905|setConfigDelay|method|pw._2pi.autogg.util.ConfigUtil|setConfigDelay|()V
+      @|pw\_2pi\autogg\gg\GGCommand.java|1938|1949|showMessage|method|pw._2pi.autogg.gg.GGCommand|showMessage|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|1950|1968|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|pw\_2pi\autogg\gg\GGCommand.java|1969|1973|GRAY|field|net.minecraft.util.EnumChatFormatting|GRAY
+      @|pw\_2pi\autogg\gg\GGCommand.java|2001|2019|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|pw\_2pi\autogg\gg\GGCommand.java|2020|2025|GREEN|field|net.minecraft.util.EnumChatFormatting|GREEN
+      @|pw\_2pi\autogg\gg\GGCommand.java|2028|2034|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGCommand.java|2035|2046|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGCommand.java|2049|2057|getDelay|method|pw._2pi.autogg.gg.AutoGG|getDelay|()I
+      @|pw\_2pi\autogg\gg\GGCommand.java|2067|2073|sender|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|pw\_2pi\autogg\gg\GGCommand.java|2125|2146|NumberFormatException|class|java.lang.NumberFormatException
+      @|pw\_2pi\autogg\gg\GGCommand.java|2181|2190|showError|method|pw._2pi.autogg.gg.GGCommand|showError|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|2241|2247|sender|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|pw\_2pi\autogg\gg\GGCommand.java|2338|2349|showMessage|method|pw._2pi.autogg.gg.GGCommand|showMessage|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|2350|2368|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|pw\_2pi\autogg\gg\GGCommand.java|2369|2373|GRAY|field|net.minecraft.util.EnumChatFormatting|GRAY
+      @|pw\_2pi\autogg\gg\GGCommand.java|2395|2413|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|pw\_2pi\autogg\gg\GGCommand.java|2414|2419|GREEN|field|net.minecraft.util.EnumChatFormatting|GREEN
+      @|pw\_2pi\autogg\gg\GGCommand.java|2422|2428|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGCommand.java|2429|2440|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGCommand.java|2443|2451|getDelay|method|pw._2pi.autogg.gg.AutoGG|getDelay|()I
+      @|pw\_2pi\autogg\gg\GGCommand.java|2461|2467|sender|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|pw\_2pi\autogg\gg\GGCommand.java|2556|2560|args|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|pw\_2pi\autogg\gg\GGCommand.java|2626|2632|String|class|java.lang.String
+      @|pw\_2pi\autogg\gg\GGCommand.java|2647|2653|String|class|java.lang.String
+      @|pw\_2pi\autogg\gg\GGCommand.java|2701|2705|args|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|pw\_2pi\autogg\gg\GGCommand.java|2769|2773|args|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|pw\_2pi\autogg\gg\GGCommand.java|2810|2814|args|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|pw\_2pi\autogg\gg\GGCommand.java|2941|2947|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGCommand.java|2948|2959|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGCommand.java|2962|2972|setMessage|method|pw._2pi.autogg.gg.AutoGG|setMessage|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|3007|3017|ConfigUtil|class|pw._2pi.autogg.util.ConfigUtil
+      @|pw\_2pi\autogg\gg\GGCommand.java|3018|3037|setConfigChangeable|method|pw._2pi.autogg.util.ConfigUtil|setConfigChangeable|()V
+      @|pw\_2pi\autogg\gg\GGCommand.java|3090|3099|Exception|class|java.lang.Exception
+      @|pw\_2pi\autogg\gg\GGCommand.java|3134|3149|showSyntaxError|method|pw._2pi.autogg.gg.GGCommand|showSyntaxError|(Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|3150|3156|sender|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|pw\_2pi\autogg\gg\GGCommand.java|3220|3231|showMessage|method|pw._2pi.autogg.gg.GGCommand|showMessage|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|3232|3250|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|pw\_2pi\autogg\gg\GGCommand.java|3251|3255|GRAY|field|net.minecraft.util.EnumChatFormatting|GRAY
+      @|pw\_2pi\autogg\gg\GGCommand.java|3290|3308|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|pw\_2pi\autogg\gg\GGCommand.java|3309|3314|GREEN|field|net.minecraft.util.EnumChatFormatting|GREEN
+      @|pw\_2pi\autogg\gg\GGCommand.java|3317|3323|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGCommand.java|3324|3335|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGCommand.java|3338|3348|getMessage|method|pw._2pi.autogg.gg.AutoGG|getMessage|()Ljava/lang/String;
+      @|pw\_2pi\autogg\gg\GGCommand.java|3352|3358|sender|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|pw\_2pi\autogg\gg\GGCommand.java|3442|3457|showSyntaxError|method|pw._2pi.autogg.gg.GGCommand|showSyntaxError|(Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|3458|3464|sender|param|pw._2pi.autogg.gg.GGCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|pw\_2pi\autogg\gg\GGCommand.java|3516|3531|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|pw\_2pi\autogg\gg\GGCommand.java|3509|3515|String|class|java.lang.String
+      @|pw\_2pi\autogg\gg\GGCommand.java|3532|3546|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|pw\_2pi\autogg\gg\GGCommand.java|3547|3553|sender|param|pw._2pi.autogg.gg.GGCommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: showMessage(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|3651|3662|showMessage|method|pw._2pi.autogg.gg.GGCommand|showMessage|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|3663|3669|String|class|java.lang.String
+      @|pw\_2pi\autogg\gg\GGCommand.java|3670|3677|message|param|pw._2pi.autogg.gg.GGCommand|showMessage|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V|message|0
+      @|pw\_2pi\autogg\gg\GGCommand.java|3679|3693|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|pw\_2pi\autogg\gg\GGCommand.java|3694|3700|sender|param|pw._2pi.autogg.gg.GGCommand|showMessage|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V|sender|1
+      @|pw\_2pi\autogg\gg\GGCommand.java|3712|3718|sender|param|pw._2pi.autogg.gg.GGCommand|showMessage|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V|sender|1
+      @|pw\_2pi\autogg\gg\GGCommand.java|3719|3733|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|3735|3749|IChatComponent|class|net.minecraft.util.IChatComponent
+      @|pw\_2pi\autogg\gg\GGCommand.java|3754|3771|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|pw\_2pi\autogg\gg\GGCommand.java|3772|3779|message|param|pw._2pi.autogg.gg.GGCommand|showMessage|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V|message|0
+   Method End: showMessage(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V
+   Method Start: showSyntaxError(Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|3807|3822|showSyntaxError|method|pw._2pi.autogg.gg.GGCommand|showSyntaxError|(Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|3823|3837|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|pw\_2pi\autogg\gg\GGCommand.java|3838|3844|sender|param|pw._2pi.autogg.gg.GGCommand|showSyntaxError|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|pw\_2pi\autogg\gg\GGCommand.java|3861|3872|showMessage|method|pw._2pi.autogg.gg.GGCommand|showMessage|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|3873|3891|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|pw\_2pi\autogg\gg\GGCommand.java|3892|3895|RED|field|net.minecraft.util.EnumChatFormatting|RED
+      @|pw\_2pi\autogg\gg\GGCommand.java|3915|3930|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|pw\_2pi\autogg\gg\GGCommand.java|3931|3937|sender|param|pw._2pi.autogg.gg.GGCommand|showSyntaxError|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|pw\_2pi\autogg\gg\GGCommand.java|3940|3946|sender|param|pw._2pi.autogg.gg.GGCommand|showSyntaxError|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+   Method End: showSyntaxError(Lnet/minecraft/command/ICommandSender;)V
+   Method Start: showError(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|3973|3982|showError|method|pw._2pi.autogg.gg.GGCommand|showError|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|3983|3989|String|class|java.lang.String
+      @|pw\_2pi\autogg\gg\GGCommand.java|3990|3995|error|param|pw._2pi.autogg.gg.GGCommand|showError|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V|error|0
+      @|pw\_2pi\autogg\gg\GGCommand.java|3997|4011|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|pw\_2pi\autogg\gg\GGCommand.java|4012|4018|sender|param|pw._2pi.autogg.gg.GGCommand|showError|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V|sender|1
+      @|pw\_2pi\autogg\gg\GGCommand.java|4035|4046|showMessage|method|pw._2pi.autogg.gg.GGCommand|showMessage|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V
+      @|pw\_2pi\autogg\gg\GGCommand.java|4047|4065|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|pw\_2pi\autogg\gg\GGCommand.java|4066|4069|RED|field|net.minecraft.util.EnumChatFormatting|RED
+      @|pw\_2pi\autogg\gg\GGCommand.java|4084|4089|error|param|pw._2pi.autogg.gg.GGCommand|showError|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V|error|0
+      @|pw\_2pi\autogg\gg\GGCommand.java|4091|4097|sender|param|pw._2pi.autogg.gg.GGCommand|showError|(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V|sender|1
+   Method End: showError(Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)V
+Class End  : pw._2pi.autogg.gg.GGCommand
+endProcessing pw\_2pi\autogg\gg\GGCommand.java
+
+processing pw\_2pi\autogg\gg\GGListener.java
+@|pw\_2pi\autogg\gg\GGListener.java|254|271|pw._2pi.autogg.gg|package|pw._2pi.autogg.gg|(file)
+Class Start: pw._2pi.autogg.gg.GGListener
+   @|pw\_2pi\autogg\gg\GGListener.java|576|582|String|class|java.lang.String
+   @|pw\_2pi\autogg\gg\GGListener.java|583|601|unformattedMessage|field|pw._2pi.autogg.gg.GGListener|unformattedMessage|
+   @|pw\_2pi\autogg\gg\GGListener.java|615|621|Random|class|java.util.Random
+   @|pw\_2pi\autogg\gg\GGListener.java|622|623|r|field|pw._2pi.autogg.gg.GGListener|r|
+   @|pw\_2pi\autogg\gg\GGListener.java|630|636|Random|class|java.util.Random
+   Method Start: onChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|pw\_2pi\autogg\gg\GGListener.java|669|675|onChat|method|pw._2pi.autogg.gg.GGListener|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|pw\_2pi\autogg\gg\GGListener.java|676|699|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
+      @|pw\_2pi\autogg\gg\GGListener.java|700|705|event|param|pw._2pi.autogg.gg.GGListener|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|pw\_2pi\autogg\gg\GGListener.java|714|718|List|class|java.util.List
+      @|pw\_2pi\autogg\gg\GGListener.java|719|725|String|class|java.lang.String
+      @|pw\_2pi\autogg\gg\GGListener.java|738|744|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGListener.java|745|756|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGListener.java|759|770|getTriggers|method|pw._2pi.autogg.gg.AutoGG|getTriggers|()Ljava/util/List;
+      @|pw\_2pi\autogg\gg\GGListener.java|811|818|isEmpty|method|java.util.Collection|isEmpty|()Z
+      @|pw\_2pi\autogg\gg\GGListener.java|840|846|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGListener.java|847|858|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGListener.java|861|870|isHypixel|method|pw._2pi.autogg.gg.AutoGG|isHypixel|()Z
+      @|pw\_2pi\autogg\gg\GGListener.java|889|895|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGListener.java|896|907|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGListener.java|910|919|isToggled|method|pw._2pi.autogg.gg.AutoGG|isToggled|()Z
+      @|pw\_2pi\autogg\gg\GGListener.java|937|943|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGListener.java|944|955|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGListener.java|958|967|isRunning|method|pw._2pi.autogg.gg.AutoGG|isRunning|()Z
+      @|pw\_2pi\autogg\gg\GGListener.java|1000|1006|String|class|java.lang.String
+      @|pw\_2pi\autogg\gg\GGListener.java|1013|1018|event|param|pw._2pi.autogg.gg.GGListener|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|pw\_2pi\autogg\gg\GGListener.java|1019|1026|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|pw\_2pi\autogg\gg\GGListener.java|1027|1045|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|pw\_2pi\autogg\gg\GGListener.java|1059|1077|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|pw\_2pi\autogg\gg\GGListener.java|1078|1107|getTextWithoutFormattingCodes|method|net.minecraft.util.EnumChatFormatting|getTextWithoutFormattingCodes|(Ljava/lang/String;)Ljava/lang/String;
+      @|pw\_2pi\autogg\gg\GGListener.java|1142|1149|isEmpty|method|java.lang.String|isEmpty|()Z
+      @|pw\_2pi\autogg\gg\GGListener.java|1166|1172|String|class|java.lang.String
+      @|pw\_2pi\autogg\gg\GGListener.java|1188|1192|trim|method|java.lang.String|trim|()Ljava/lang/String;
+      @|pw\_2pi\autogg\gg\GGListener.java|1254|1261|matches|method|java.lang.String|matches|(Ljava/lang/String;)Z
+      @|pw\_2pi\autogg\gg\GGListener.java|1301|1308|matches|method|java.lang.String|matches|(Ljava/lang/String;)Z
+      @|pw\_2pi\autogg\gg\GGListener.java|1376|1382|System|class|java.lang.System
+      @|pw\_2pi\autogg\gg\GGListener.java|1383|1386|out|field|java.lang.System|out
+      @|pw\_2pi\autogg\gg\GGListener.java|1387|1394|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\gg\GGListener.java|1453|1459|stream|method|java.util.Collection|stream|()Ljava/util/stream/Stream;
+      @|pw\_2pi\autogg\gg\GGListener.java|1462|1470|anyMatch|method|java.util.stream.Stream|anyMatch|(Ljava/util/function/Predicate;)Z
+      @|pw\_2pi\autogg\gg\GGListener.java|1588|1594|System|class|java.lang.System
+      @|pw\_2pi\autogg\gg\GGListener.java|1595|1598|out|field|java.lang.System|out
+      @|pw\_2pi\autogg\gg\GGListener.java|1599|1606|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\gg\GGListener.java|1642|1648|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGListener.java|1649|1660|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGListener.java|1663|1673|setRunning|method|pw._2pi.autogg.gg.AutoGG|setRunning|(Z)V
+      @|pw\_2pi\autogg\gg\GGListener.java|1685|1691|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGListener.java|1692|1703|THREAD_POOL|field|pw._2pi.autogg.gg.AutoGG|THREAD_POOL
+      @|pw\_2pi\autogg\gg\GGListener.java|1704|1710|submit|method|java.util.concurrent.ExecutorService|submit|(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
+      @|pw\_2pi\autogg\gg\GGListener.java|1715|1723|GGThread|class|pw._2pi.autogg.gg.GGThread
+   Method End: onChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+Class End  : pw._2pi.autogg.gg.GGListener
+endProcessing pw\_2pi\autogg\gg\GGListener.java
+
+processing pw\_2pi\autogg\gg\GGThread.java
+@|pw\_2pi\autogg\gg\GGThread.java|45|62|pw._2pi.autogg.gg|package|pw._2pi.autogg.gg|(file)
+Class Start: pw._2pi.autogg.gg.GGThread
+   Method Start: run()V
+      @|pw\_2pi\autogg\gg\GGThread.java|173|176|run|method|java.lang.Runnable|run|()V
+      @|pw\_2pi\autogg\gg\GGThread.java|207|213|Thread|class|java.lang.Thread
+      @|pw\_2pi\autogg\gg\GGThread.java|214|219|sleep|method|java.lang.Thread|sleep|(J)V
+      @|pw\_2pi\autogg\gg\GGThread.java|220|226|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGThread.java|227|238|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGThread.java|241|249|getDelay|method|pw._2pi.autogg.gg.AutoGG|getDelay|()I
+      @|pw\_2pi\autogg\gg\GGThread.java|273|279|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGThread.java|280|291|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGThread.java|294|306|getMinecraft|method|pw._2pi.autogg.gg.AutoGG|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|pw\_2pi\autogg\gg\GGThread.java|309|318|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|pw\_2pi\autogg\gg\GGThread.java|319|334|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\gg\GGThread.java|347|353|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGThread.java|354|365|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGThread.java|368|378|getMessage|method|pw._2pi.autogg.gg.AutoGG|getMessage|()Ljava/lang/String;
+      @|pw\_2pi\autogg\gg\GGThread.java|395|401|Thread|class|java.lang.Thread
+      @|pw\_2pi\autogg\gg\GGThread.java|402|407|sleep|method|java.lang.Thread|sleep|(J)V
+      @|pw\_2pi\autogg\gg\GGThread.java|428|434|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\gg\GGThread.java|435|446|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\gg\GGThread.java|449|459|setRunning|method|pw._2pi.autogg.gg.AutoGG|setRunning|(Z)V
+      @|pw\_2pi\autogg\gg\GGThread.java|493|502|Exception|class|java.lang.Exception
+      @|pw\_2pi\autogg\gg\GGThread.java|522|537|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: run()V
+Class End  : pw._2pi.autogg.gg.GGThread
+endProcessing pw\_2pi\autogg\gg\GGThread.java
+
+processing pw\_2pi\autogg\util\AutoGGThreadFactory.java
+@|pw\_2pi\autogg\util\AutoGGThreadFactory.java|45|64|pw._2pi.autogg.util|package|pw._2pi.autogg.util|(file)
+Class Start: pw._2pi.autogg.util.AutoGGThreadFactory
+   @|pw\_2pi\autogg\util\AutoGGThreadFactory.java|239|252|AtomicInteger|class|java.util.concurrent.atomic.AtomicInteger
+   @|pw\_2pi\autogg\util\AutoGGThreadFactory.java|253|265|threadNumber|field|pw._2pi.autogg.util.AutoGGThreadFactory|threadNumber|
+   @|pw\_2pi\autogg\util\AutoGGThreadFactory.java|272|285|AtomicInteger|class|java.util.concurrent.atomic.AtomicInteger
+   Method Start: newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
+      @|pw\_2pi\autogg\util\AutoGGThreadFactory.java|323|332|newThread|method|java.util.concurrent.ThreadFactory|newThread|(Ljava/lang/Runnable;)Ljava/lang/Thread;
+      @|pw\_2pi\autogg\util\AutoGGThreadFactory.java|316|322|Thread|class|java.lang.Thread
+      @|pw\_2pi\autogg\util\AutoGGThreadFactory.java|333|341|Runnable|class|java.lang.Runnable
+      @|pw\_2pi\autogg\util\AutoGGThreadFactory.java|342|343|r|param|pw._2pi.autogg.util.AutoGGThreadFactory|newThread|(Ljava/lang/Runnable;)Ljava/lang/Thread;|r|0
+      @|pw\_2pi\autogg\util\AutoGGThreadFactory.java|366|372|Thread|class|java.lang.Thread
+      @|pw\_2pi\autogg\util\AutoGGThreadFactory.java|373|374|r|param|pw._2pi.autogg.util.AutoGGThreadFactory|newThread|(Ljava/lang/Runnable;)Ljava/lang/Thread;|r|0
+      @|pw\_2pi\autogg\util\AutoGGThreadFactory.java|392|404|threadNumber|field|pw._2pi.autogg.util.AutoGGThreadFactory|threadNumber
+      @|pw\_2pi\autogg\util\AutoGGThreadFactory.java|405|420|getAndIncrement|method|java.util.concurrent.atomic.AtomicInteger|getAndIncrement|()I
+   Method End: newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
+Class End  : pw._2pi.autogg.util.AutoGGThreadFactory
+endProcessing pw\_2pi\autogg\util\AutoGGThreadFactory.java
+
+processing pw\_2pi\autogg\util\ConfigUtil.java
+@|pw\_2pi\autogg\util\ConfigUtil.java|45|64|pw._2pi.autogg.util|package|pw._2pi.autogg.util|(file)
+Class Start: pw._2pi.autogg.util.ConfigUtil
+   @|pw\_2pi\autogg\util\ConfigUtil.java|323|327|File|class|java.io.File
+   @|pw\_2pi\autogg\util\ConfigUtil.java|328|339|CONFIG_FILE|field|pw._2pi.autogg.util.ConfigUtil|CONFIG_FILE|
+   @|pw\_2pi\autogg\util\ConfigUtil.java|346|350|File|class|java.io.File
+   @|pw\_2pi\autogg\util\ConfigUtil.java|351|357|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+   @|pw\_2pi\autogg\util\ConfigUtil.java|358|369|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+   @|pw\_2pi\autogg\util\ConfigUtil.java|372|384|getMinecraft|method|pw._2pi.autogg.gg.AutoGG|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   @|pw\_2pi\autogg\util\ConfigUtil.java|387|396|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+   @|pw\_2pi\autogg\util\ConfigUtil.java|447|451|File|class|java.io.File
+   @|pw\_2pi\autogg\util\ConfigUtil.java|452|471|Message_CONFIG_FILE|field|pw._2pi.autogg.util.ConfigUtil|Message_CONFIG_FILE|
+   @|pw\_2pi\autogg\util\ConfigUtil.java|478|482|File|class|java.io.File
+   @|pw\_2pi\autogg\util\ConfigUtil.java|483|489|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+   @|pw\_2pi\autogg\util\ConfigUtil.java|490|501|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+   @|pw\_2pi\autogg\util\ConfigUtil.java|504|516|getMinecraft|method|pw._2pi.autogg.gg.AutoGG|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   @|pw\_2pi\autogg\util\ConfigUtil.java|519|528|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+   Method Start: setConfigDelay()V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|589|603|setConfigDelay|method|pw._2pi.autogg.util.ConfigUtil|setConfigDelay|()V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|639|650|CONFIG_FILE|field|pw._2pi.autogg.util.ConfigUtil|CONFIG_FILE
+      @|pw\_2pi\autogg\util\ConfigUtil.java|651|657|exists|method|java.io.File|exists|()Z
+      @|pw\_2pi\autogg\util\ConfigUtil.java|679|690|CONFIG_FILE|field|pw._2pi.autogg.util.ConfigUtil|CONFIG_FILE
+      @|pw\_2pi\autogg\util\ConfigUtil.java|691|704|createNewFile|method|java.io.File|createNewFile|()Z
+      @|pw\_2pi\autogg\util\ConfigUtil.java|734|748|BufferedWriter|class|java.io.BufferedWriter
+      @|pw\_2pi\autogg\util\ConfigUtil.java|758|772|BufferedWriter|class|java.io.BufferedWriter
+      @|pw\_2pi\autogg\util\ConfigUtil.java|777|787|FileWriter|class|java.io.FileWriter
+      @|pw\_2pi\autogg\util\ConfigUtil.java|788|799|CONFIG_FILE|field|pw._2pi.autogg.util.ConfigUtil|CONFIG_FILE
+      @|pw\_2pi\autogg\util\ConfigUtil.java|818|823|write|method|java.io.Writer|write|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|824|831|Integer|class|java.lang.Integer
+      @|pw\_2pi\autogg\util\ConfigUtil.java|832|840|toString|method|java.lang.Integer|toString|(I)Ljava/lang/String;
+      @|pw\_2pi\autogg\util\ConfigUtil.java|841|847|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\util\ConfigUtil.java|848|859|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\util\ConfigUtil.java|862|870|getDelay|method|pw._2pi.autogg.gg.AutoGG|getDelay|()I
+      @|pw\_2pi\autogg\util\ConfigUtil.java|891|896|close|method|java.lang.AutoCloseable|close|()V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|925|936|IOException|class|java.io.IOException
+      @|pw\_2pi\autogg\util\ConfigUtil.java|956|971|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: setConfigDelay()V
+   Method Start: setConfigChangeable()V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1015|1034|setConfigChangeable|method|pw._2pi.autogg.util.ConfigUtil|setConfigChangeable|()V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1070|1089|Message_CONFIG_FILE|field|pw._2pi.autogg.util.ConfigUtil|Message_CONFIG_FILE
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1090|1096|exists|method|java.io.File|exists|()Z
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1118|1137|Message_CONFIG_FILE|field|pw._2pi.autogg.util.ConfigUtil|Message_CONFIG_FILE
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1138|1151|createNewFile|method|java.io.File|createNewFile|()Z
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1181|1195|BufferedWriter|class|java.io.BufferedWriter
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1205|1219|BufferedWriter|class|java.io.BufferedWriter
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1224|1234|FileWriter|class|java.io.FileWriter
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1235|1254|Message_CONFIG_FILE|field|pw._2pi.autogg.util.ConfigUtil|Message_CONFIG_FILE
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1273|1278|write|method|java.io.Writer|write|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1279|1285|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1286|1297|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1300|1310|getMessage|method|pw._2pi.autogg.gg.AutoGG|getMessage|()Ljava/lang/String;
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1330|1335|close|method|java.lang.AutoCloseable|close|()V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1364|1375|IOException|class|java.io.IOException
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1395|1410|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: setConfigChangeable()V
+   Method Start: getConfigDelay()I
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1453|1467|getConfigDelay|method|pw._2pi.autogg.util.ConfigUtil|getConfigDelay|()I
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1485|1496|CONFIG_FILE|field|pw._2pi.autogg.util.ConfigUtil|CONFIG_FILE
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1497|1503|exists|method|java.io.File|exists|()Z
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1521|1531|ConfigUtil|class|pw._2pi.autogg.util.ConfigUtil
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1532|1546|setConfigDelay|method|pw._2pi.autogg.util.ConfigUtil|setConfigDelay|()V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1586|1592|String|class|java.lang.String
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1611|1617|String|class|java.lang.String
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1618|1623|Files|class|java.nio.file.Files
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1624|1636|readAllBytes|method|java.nio.file.Files|readAllBytes|(Ljava/nio/file/Path;)[B
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1637|1648|CONFIG_FILE|field|pw._2pi.autogg.util.ConfigUtil|CONFIG_FILE
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1649|1655|toPath|method|java.io.File|toPath|()Ljava/nio/file/Path;
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1660|1676|StandardCharsets|class|java.nio.charset.StandardCharsets
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1677|1682|UTF_8|field|java.nio.charset.StandardCharsets|UTF_8
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1697|1703|System|class|java.lang.System
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1704|1707|out|field|java.lang.System|out
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1708|1715|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1754|1761|Integer|class|java.lang.Integer
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1762|1770|parseInt|method|java.lang.Integer|parseInt|(Ljava/lang/String;)I
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1853|1874|NumberFormatException|class|java.lang.NumberFormatException
+      @|pw\_2pi\autogg\util\ConfigUtil.java|1960|1981|NumberFormatException|class|java.lang.NumberFormatException
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2001|2012|CONFIG_FILE|field|pw._2pi.autogg.util.ConfigUtil|CONFIG_FILE
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2013|2019|delete|method|java.io.File|delete|()Z
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2035|2045|ConfigUtil|class|pw._2pi.autogg.util.ConfigUtil
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2046|2060|setConfigDelay|method|pw._2pi.autogg.util.ConfigUtil|setConfigDelay|()V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2080|2095|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2124|2135|IOException|class|java.io.IOException
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2159|2174|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2203|2209|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2210|2221|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2224|2232|getDelay|method|pw._2pi.autogg.gg.AutoGG|getDelay|()I
+   Method End: getConfigDelay()I
+   Method Start: getConfigMessage()Ljava/lang/String;
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2268|2284|getConfigMessage|method|pw._2pi.autogg.util.ConfigUtil|getConfigMessage|()Ljava/lang/String;
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2261|2267|String|class|java.lang.String
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2302|2321|Message_CONFIG_FILE|field|pw._2pi.autogg.util.ConfigUtil|Message_CONFIG_FILE
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2322|2328|exists|method|java.io.File|exists|()Z
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2346|2356|ConfigUtil|class|pw._2pi.autogg.util.ConfigUtil
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2357|2371|setConfigDelay|method|pw._2pi.autogg.util.ConfigUtil|setConfigDelay|()V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2411|2417|String|class|java.lang.String
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2438|2444|String|class|java.lang.String
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2445|2450|Files|class|java.nio.file.Files
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2451|2463|readAllBytes|method|java.nio.file.Files|readAllBytes|(Ljava/nio/file/Path;)[B
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2464|2483|Message_CONFIG_FILE|field|pw._2pi.autogg.util.ConfigUtil|Message_CONFIG_FILE
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2484|2490|toPath|method|java.io.File|toPath|()Ljava/nio/file/Path;
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2495|2511|StandardCharsets|class|java.nio.charset.StandardCharsets
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2512|2517|UTF_8|field|java.nio.charset.StandardCharsets|UTF_8
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2579|2600|NumberFormatException|class|java.lang.NumberFormatException
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2620|2639|Message_CONFIG_FILE|field|pw._2pi.autogg.util.ConfigUtil|Message_CONFIG_FILE
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2640|2646|delete|method|java.io.File|delete|()Z
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2662|2672|ConfigUtil|class|pw._2pi.autogg.util.ConfigUtil
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2673|2687|setConfigDelay|method|pw._2pi.autogg.util.ConfigUtil|setConfigDelay|()V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2707|2722|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2751|2762|IOException|class|java.io.IOException
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2786|2801|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2830|2836|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2837|2848|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\util\ConfigUtil.java|2851|2861|getMessage|method|pw._2pi.autogg.gg.AutoGG|getMessage|()Ljava/lang/String;
+   Method End: getConfigMessage()Ljava/lang/String;
+Class End  : pw._2pi.autogg.util.ConfigUtil
+endProcessing pw\_2pi\autogg\util\ConfigUtil.java
+
+processing pw\_2pi\autogg\util\GetTriggers.java
+@|pw\_2pi\autogg\util\GetTriggers.java|8|27|pw._2pi.autogg.util|package|pw._2pi.autogg.util|(file)
+Class Start: pw._2pi.autogg.util.GetTriggers
+   Method Start: run()V
+      @|pw\_2pi\autogg\util\GetTriggers.java|352|355|run|method|java.lang.Runnable|run|()V
+      @|pw\_2pi\autogg\util\GetTriggers.java|452|456|File|class|java.io.File
+      @|pw\_2pi\autogg\util\GetTriggers.java|468|472|File|class|java.io.File
+      @|pw\_2pi\autogg\util\GetTriggers.java|490|496|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\util\GetTriggers.java|497|508|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\util\GetTriggers.java|511|523|getMinecraft|method|pw._2pi.autogg.gg.AutoGG|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|pw\_2pi\autogg\util\GetTriggers.java|526|535|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+      @|pw\_2pi\autogg\util\GetTriggers.java|610|616|System|class|java.lang.System
+      @|pw\_2pi\autogg\util\GetTriggers.java|617|620|out|field|java.lang.System|out
+      @|pw\_2pi\autogg\util\GetTriggers.java|621|628|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\util\GetTriggers.java|672|687|getAbsolutePath|method|java.io.File|getAbsolutePath|()Ljava/lang/String;
+      @|pw\_2pi\autogg\util\GetTriggers.java|704|710|System|class|java.lang.System
+      @|pw\_2pi\autogg\util\GetTriggers.java|711|714|out|field|java.lang.System|out
+      @|pw\_2pi\autogg\util\GetTriggers.java|715|722|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\util\GetTriggers.java|754|760|exists|method|java.io.File|exists|()Z
+      @|pw\_2pi\autogg\util\GetTriggers.java|828|834|exists|method|java.io.File|exists|()Z
+      @|pw\_2pi\autogg\util\GetTriggers.java|861|874|getParentFile|method|java.io.File|getParentFile|()Ljava/io/File;
+      @|pw\_2pi\autogg\util\GetTriggers.java|877|883|mkdirs|method|java.io.File|mkdirs|()Z
+      @|pw\_2pi\autogg\util\GetTriggers.java|908|921|createNewFile|method|java.io.File|createNewFile|()Z
+      @|pw\_2pi\autogg\util\GetTriggers.java|978|983|Files|class|java.nio.file.Files
+      @|pw\_2pi\autogg\util\GetTriggers.java|984|989|write|method|java.nio.file.Files|write|(Ljava/nio/file/Path;Ljava/lang/Iterable;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;
+      @|pw\_2pi\autogg\util\GetTriggers.java|995|1001|toPath|method|java.io.File|toPath|()Ljava/nio/file/Path;
+      @|pw\_2pi\autogg\util\GetTriggers.java|1005|1011|Arrays|class|java.util.Arrays
+      @|pw\_2pi\autogg\util\GetTriggers.java|1012|1018|asList|method|java.util.Arrays|asList|([Ljava/lang/Object;)Ljava/util/List;
+      @|pw\_2pi\autogg\util\GetTriggers.java|1393|1399|System|class|java.lang.System
+      @|pw\_2pi\autogg\util\GetTriggers.java|1400|1403|out|field|java.lang.System|out
+      @|pw\_2pi\autogg\util\GetTriggers.java|1404|1411|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\util\GetTriggers.java|1482|1488|System|class|java.lang.System
+      @|pw\_2pi\autogg\util\GetTriggers.java|1489|1492|out|field|java.lang.System|out
+      @|pw\_2pi\autogg\util\GetTriggers.java|1493|1500|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\util\GetTriggers.java|1605|1611|String|class|java.lang.String
+      @|pw\_2pi\autogg\util\GetTriggers.java|1626|1633|IOUtils|class|org.apache.commons.io.IOUtils
+      @|pw\_2pi\autogg\util\GetTriggers.java|1634|1642|toString|method|org.apache.commons.io.IOUtils|toString|(Ljava/io/InputStream;Ljava/lang/String;)Ljava/lang/String;
+      @|pw\_2pi\autogg\util\GetTriggers.java|1664|1679|FileInputStream|class|java.io.FileInputStream
+      @|pw\_2pi\autogg\util\GetTriggers.java|1739|1745|System|class|java.lang.System
+      @|pw\_2pi\autogg\util\GetTriggers.java|1746|1749|out|field|java.lang.System|out
+      @|pw\_2pi\autogg\util\GetTriggers.java|1750|1757|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\util\GetTriggers.java|1796|1802|System|class|java.lang.System
+      @|pw\_2pi\autogg\util\GetTriggers.java|1803|1806|out|field|java.lang.System|out
+      @|pw\_2pi\autogg\util\GetTriggers.java|1807|1814|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\util\GetTriggers.java|1882|1891|ArrayList|class|java.util.ArrayList
+      @|pw\_2pi\autogg\util\GetTriggers.java|1892|1898|String|class|java.lang.String
+      @|pw\_2pi\autogg\util\GetTriggers.java|1911|1917|Arrays|class|java.util.Arrays
+      @|pw\_2pi\autogg\util\GetTriggers.java|1918|1924|stream|method|java.util.Arrays|stream|([Ljava/lang/Object;)Ljava/util/stream/Stream;
+      @|pw\_2pi\autogg\util\GetTriggers.java|1937|1942|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      @|pw\_2pi\autogg\util\GetTriggers.java|1971|1974|map|method|java.util.stream.Stream|map|(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+      @|pw\_2pi\autogg\util\GetTriggers.java|2010|2016|filter|method|java.util.stream.Stream|filter|(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+      @|pw\_2pi\autogg\util\GetTriggers.java|2057|2064|collect|method|java.util.stream.Stream|collect|(Ljava/util/stream/Collector;)Ljava/lang/Object;
+      @|pw\_2pi\autogg\util\GetTriggers.java|2065|2075|Collectors|class|java.util.stream.Collectors
+      @|pw\_2pi\autogg\util\GetTriggers.java|2076|2088|toCollection|method|java.util.stream.Collectors|toCollection|(Ljava/util/function/Supplier;)Ljava/util/stream/Collector;
+      @|pw\_2pi\autogg\util\GetTriggers.java|2120|2126|System|class|java.lang.System
+      @|pw\_2pi\autogg\util\GetTriggers.java|2127|2130|out|field|java.lang.System|out
+      @|pw\_2pi\autogg\util\GetTriggers.java|2131|2138|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\util\GetTriggers.java|2185|2191|String|class|java.lang.String
+      @|pw\_2pi\autogg\util\GetTriggers.java|2224|2230|System|class|java.lang.System
+      @|pw\_2pi\autogg\util\GetTriggers.java|2231|2234|out|field|java.lang.System|out
+      @|pw\_2pi\autogg\util\GetTriggers.java|2235|2242|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\util\GetTriggers.java|2327|2333|AutoGG|class|pw._2pi.autogg.gg.AutoGG
+      @|pw\_2pi\autogg\util\GetTriggers.java|2334|2345|getInstance|method|pw._2pi.autogg.gg.AutoGG|getInstance|()Lpw/_2pi/autogg/gg/AutoGG;
+      @|pw\_2pi\autogg\util\GetTriggers.java|2348|2359|setTriggers|method|pw._2pi.autogg.gg.AutoGG|setTriggers|(Ljava/util/ArrayList;)V
+      @|pw\_2pi\autogg\util\GetTriggers.java|2389|2398|Exception|class|java.lang.Exception
+      @|pw\_2pi\autogg\util\GetTriggers.java|2416|2422|System|class|java.lang.System
+      @|pw\_2pi\autogg\util\GetTriggers.java|2423|2426|out|field|java.lang.System|out
+      @|pw\_2pi\autogg\util\GetTriggers.java|2427|2434|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|pw\_2pi\autogg\util\GetTriggers.java|2486|2501|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: run()V
+Class End  : pw._2pi.autogg.util.GetTriggers
+endProcessing pw\_2pi\autogg\util\GetTriggers.java
+
