@@ -7,6 +7,6 @@
 
 - triggers can be updated in the triggers list created in config!! ".minecraft/config/autogg_triggers.txt"
 
-  Probably could be optimised but it works for me and i made it so it doesnt triggger when players send the triggers in chat lol
+  ~~Probably could be optimised but it works for me and i made it so it doesnt triggger when players send the triggers in chat lol~~ [broken]
 
 [https://github.com/nichv/AutoGGReborn/releases/download/finalversion/AutoGGReborn-2.0.5.jar]
