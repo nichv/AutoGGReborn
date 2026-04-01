@@ -1,4 +1,4 @@
-# AutoGGReborn
+# AutoGGReborn  [2.0.4] ---> [2.0.5]
 **No gui, simple commands, changeable gg text, thanks _2pi for the original code. vibe coded with chatgpt until it started working**
 
 - Changeable gg message
