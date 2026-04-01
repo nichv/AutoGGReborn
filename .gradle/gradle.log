@@ -4,12 +4,12 @@ See https://gist.github.com/TheCurle/fe7ad3ede188cbdd15c235cc75d52d4a for more i
 :clean
 :deobfCompileDummyTask
 :deobfProvidedDummyTask
-:sourceApiJava UP-TO-DATE
+:sourceApiJava
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
 :sourceMainJava
-:compileJavaD:\cum\New folder\build\sources\main\java\pw\_2pi\autogg\gg\GGListener.java:41: error: unmappable character for encoding Cp1252
+:compileJavaC:\Users\snott\Documents\GitHub\AutoGGReborn\build\sources\main\java\pw\_2pi\autogg\gg\GGListener.java:41: error: unmappable character for encoding Cp1252
     // â?Œ Ignore actual player chat ONLY
         ^
 Note: Some input files use unchecked or unsafe operations.
@@ -18,7 +18,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :processResources
 :classes
 :jar
-:sourceTestJava UP-TO-DATE
+:sourceTestJava
 :compileTestJava UP-TO-DATE
 :processTestResources UP-TO-DATE
 :testClasses UP-TO-DATE
@@ -30,7 +30,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :genSrgs SKIPPED
 :reobfJar
 :extractRangemapReplacedMain
-D:\cum\New folder\build\sources\main\java
+C:\Users\snott\Documents\GitHub\AutoGGReborn\build\sources\main\java
 :retromapReplacedMain
 remapping source...
 :sourceJar
@@ -40,4 +40,4 @@ remapping source...
 
 BUILD SUCCESSFUL
 
-Total time: 4.398 secs
+Total time: 13.077 secs
