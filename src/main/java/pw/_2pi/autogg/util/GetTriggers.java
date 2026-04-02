@@ -48,7 +48,8 @@ public class GetTriggers implements Runnable {
 				"Winner #1 (",
 				"Top Survivors",
 				"Winners - ",
-				"Survivors ("
+				"Survivors (",
+				"Player of the match:"
                 ));
 
                 System.out.println("AutoGG: Created default triggers file.");
