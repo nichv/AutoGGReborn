@@ -34,11 +34,10 @@ public class GetTriggers implements Runnable {
                 Files.write(file.toPath(), Arrays.asList(
                 "1st Killer - ",
 				"1st Place - ",
-				"Winner: ",
 				" - Damage Dealt - ",
 				"Winning Team - ",
 				"1st - ",
-				"Winners: ",
+				"Winners:",
 				"Winner:",
 				"Winning Team: ",
 				" won the game!",
@@ -49,7 +48,8 @@ public class GetTriggers implements Runnable {
 				"Top Survivors",
 				"Winners - ",
 				"Survivors (",
-				"Player of the match:"
+				"Player of the match:",
+				"Winner - DRAW!"
                 ));
 
                 System.out.println("AutoGG: Created default triggers file.");
